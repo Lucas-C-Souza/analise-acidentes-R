@@ -1,5 +1,5 @@
 # --- CONFIGURAÇÃO INICIAL ---
-setwd("C:/Users/lukin/Desktop/Programacao/R/Trabalho 1")
+setwd(".")
 
 library(dplyr)
 library(ggplot2)
@@ -43,3 +43,4 @@ ggsave("grafico_acidentes.png", plot = grafico, width = 8, height = 6, dpi = 300
 
 # No VS Code, o gráfico aparecerá na aba 'R Plot' ou em uma janela separada
 print(grafico)
+
